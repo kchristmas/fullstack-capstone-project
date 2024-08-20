@@ -15,8 +15,8 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/app" element={<MainPage />} />
-          <Route path=useNavigate("/app/login") element={<LoginPage/>} />
-          <Route path=useNavigate("/app/register") element={<RegisterPage />} />
+          <Route path="/app/login" element={<LoginPage/>} />
+          <Route path="/app/register" element={<RegisterPage />} />
         </Routes>
         </>
   );
