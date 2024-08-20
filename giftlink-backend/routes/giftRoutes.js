@@ -1,4 +1,5 @@
 const connectToDatabase = require("../models/db");
+/*jshint esversion: 8 */
 
 router.get('/', async (req, res) => {
     try {
